@@ -1,0 +1,159 @@
+/* Root Variables */
+:root,
+[data-bs-theme=light] {
+  --bs-white: #fff;
+  --tanColor: #dad1c4;
+  --bs-gray-900: #212529;
+}
+
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: "Jura";
+}
+
+
+h5 {
+  font-size: larger;
+}
+p {
+  font-family: 'Jura';
+font-size: 14px !important;
+}
+
+
+/* Font style */
+body {
+  font: var(--bs-font-sans-serif);
+}
+
+
+/* NavBar styling*/
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: var(--bs-dark) !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* Navbar links */
+.customNav a {
+  color: var(--bs-white) !important;
+}
+
+
+
+/* Jumbotron  */
+  
+  /* Hero Section styling */
+  .jumbotron {
+    background-color:var(--bs-white);
+    align-content: left;
+    padding: 100px 0; 
+    
+    
+  }
+
+  .display-4 {
+    font-size: 40px;
+  }
+  
+  .jumbotron p {
+    font-size: 20px;
+  }
+  
+  .media {
+    height: 100px;
+    border-radius: 0%;
+    margin-right: 10px;
+  }
+
+
+  /* Work Section styling */
+
+#work {
+  background-color: var( --tanColor) !important;
+  padding: 50px 0; 
+}
+
+#work h2 {
+  color: var(--bs-gray-900);
+  text-align: left;
+
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ 
+}
+
+.card-title {
+  color: var(--bs-dark); 
+  font-weight: bold !important;
+}
+
+.card-text {
+  color: var(--bs-dark); 
+}
+
+.btn-primary {
+  background-color: var(--bs-gray-900); 
+  font-family: "Jura";
+  font-size: small;
+}
+
+.card img,
+.btn-primary{
+border-radius: 0%;
+}
+
+
+
+
+
+   /* Skills Section styling */
+
+
+
+
+  /* About Section styling */
+
+
+
+   /* About Section styling */
+
+
+
+
+  /* Skills Section styling */
+
+
+
+
+  /* Footer styling */
+  footer {
+    background-color: #f8f9fa; 
+    padding: 2rem 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar-nav .nav-link {
+      margin-right: 0.5rem;
+    }
+  }
+  
+  
