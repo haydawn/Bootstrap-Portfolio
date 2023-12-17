@@ -6,9 +6,14 @@
   --bs-gray-900: #212529;
 }
 
-/* Text */
-title, a, p, h1, h2, h3 , h4, h5, h6, li {
+/* Global Text Style */
+h1, h2, h3, h4, h5, h6, li, title, a, p {
   font-family: "Jura";
+}
+
+/* Font style */
+body {
+  font: var(--bs-font-sans-serif);
 }
 
 h5 {
@@ -16,19 +21,10 @@ h5 {
 }
 
 p, li {
-font-size: 14px !important;
+  font-size: 14px !important;
 }
 
-
-/* Font style */
-body {
-  font: var(--bs-font-sans-serif);
-}
-
-
-/* NavBar styling*/
-
-/* General */
+/* NavBar styling */
 .customNav {
   position: fixed;
   width: 100%;
@@ -51,60 +47,50 @@ body {
   color: var(--bs-white) !important;
 }
 
+/* Jumbotron styling */
+.jumbotron {
+  position: relative;
+  background-color: var(--bs-white);
+  padding: 100px 0;
+}
 
+.display-4 {
+  font-size: 40px;
+}
 
-/* Jumbotron  */
-  
-  /* Hero Section styling */
-  .jumbotron {
-    background-color:var(--bs-white);
-    align-content: left;
-    padding: 80px 0; 
-    
-  }
+.jumbotron p {
+  font-size: 20px;
+}
 
-  .display-4 {
-    font-size: 40px;
-  }
-  
-  .jumbotron p {
-    font-size: 20px;
-  }
-  
-  .media {
-    height: 100px;
-    border-radius: 0%;
-    margin-right: 10px;
-  }
+.media {
+  height: 100px;
+  border-radius: 0%;
+}
 
-
-  /* Work Section styling */
-
+/* Work Section styling */
 #work {
-  background-color: var( --tanColor) !important;
-  padding: 50px 0; 
+  background-color: var(--tanColor) !important;
+  padding: 50px 0;
 }
 
 #work h2 {
   color: var(--bs-gray-900);
   text-align: left !important;
-
 }
 
 .card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
- 
 }
 
 .card-title {
-  color: var(--bs-dark); 
+  color: var(--bs-dark);
   font-weight: bold !important;
 }
 
 .btn-primary {
-  background-color: var(--bs-gray-900); 
+  background-color: var(--bs-gray-900);
   color: var(--bs-white);
   font-family: "Jura";
   font-size: small;
@@ -113,91 +99,66 @@ body {
 
 .card img,
 .btn {
-border-radius: 0%;
+  border-radius: 0%;
 }
 
-
-
-
-
-   /* Skills Section styling */
-  
+/* Skills Section styling */
 #skills {
-    padding: 80px 0;
-    display: flex;
-    
+  padding: 80px 0;
+  display: flex;
 }
 
 .card {
-    border: 1px transparent;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 10px; 
+  border: 1px transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
 }
 
 .list-group-item:hover {
-    background-color: #e2e6ea;
+  background-color: #e2e6ea;
 }
-
 
 .text-center {
   justify-content: center;
   align-items: center;
 }
-  /* Skills Section styling */
-
-
-
 
 /* About Me/Contact Section styling */
 #about-contact {
   background-color: var(--tanColor) !important;
-  padding: 50px 0; 
+  padding: 50px 0;
 }
 
 #about-contact .row {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 #about-contact .input-group-text,
 #about-contact .form-control {
-  background-color: var(--bs-white); 
-  
+  background-color: var(--bs-white);
 }
 
-/* About Me/Contact Section styling */
-
-
-
 /* Footer styling */
-
-  /* Footer styling */
-
-
-
+/* Footer styling end */
 
 /* Hover & Transition */
-nav a:hover, 
+nav .navbar-nav a:hover,
 footer a:hover {
   transform: scale(1.3);
   color: var(--bs-white) !important;
 }
 
-.btn-primary:focus,
-.btn-primary:active {
-  color: var(--bs-white);
-  border-color: var(--bs-gray-900);
+.btn:hover {
+  box-shadow: 10px 5px 5px var(--tanColor) !important;
 }
 
+/* Hover & Transition end */
 
-
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .navbar-nav .nav-link {
-      margin-right: 0.5rem;
-    }
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    margin-right: 0.5rem;
   }
-
-
-  
-  
+}
+/* Responsive styles end */
