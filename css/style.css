@@ -28,7 +28,7 @@ p, li {
 .customNav {
   position: fixed;
   width: 100%;
-  background-color: var(--bs-dark) !important;
+  background-color: transparent !important;
   background-size: cover;
   z-index: 10;
 }
@@ -50,8 +50,11 @@ p, li {
 /* Jumbotron styling */
 .jumbotron {
   position: relative;
-  background-color: var(--bs-white);
+  background-image: url(https://images.pexels.com/photos/3591570/pexels-photo-3591570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-position: center;
+  background-size: cover; 
   padding: 100px 0;
+  color: var(--bs-white);
 }
 
 .display-4 {
@@ -64,7 +67,7 @@ p, li {
 
 .media {
   height: 100px;
-  border-radius: 0%;
+  border-radius: 10%;
 }
 
 /* Work Section styling */
@@ -97,34 +100,19 @@ p, li {
   border-color: var(--bs-gray-900);
 }
 
-.card img,
+.card .card img,
 .btn {
-  border-radius: 0%;
+  border-radius: 5%;
 }
 
 /* Skills Section styling */
-#skills {
-  padding: 80px 0;
-  display: flex;
+#skills{
+  padding: 10%;
 }
 
-.card {
-  border: 1px transparent;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 0 10px;
-}
 
-.list-group-item:hover {
-  background-color: #e2e6ea;
-}
 
-.text-center {
-  justify-content: center;
-  align-items: center;
-}
-
-/* About Me/Contact Section styling */
+/* About Me-Contact Section styling */
 #about-contact {
   background-color: var(--tanColor) !important;
   padding: 50px 0;
@@ -134,13 +122,18 @@ p, li {
   margin-bottom: 20px;
 }
 
-#about-contact .input-group-text,
 #about-contact .form-control {
   background-color: var(--bs-white);
+   font-family: "Jura"; 
 }
 
+.about-row{
+padding-right: 100px;
+}
+
+
 /* Footer styling */
-/* Footer styling end */
+
 
 /* Hover & Transition */
 nav .navbar-nav a:hover,
@@ -150,10 +143,13 @@ footer a:hover {
 }
 
 .btn:hover {
-  box-shadow: 10px 5px 5px var(--tanColor) !important;
+  box-shadow: 10px 5px 5px var(--tanColor) 
 }
 
-/* Hover & Transition end */
+#about-contact form button.btn:hover {
+  box-shadow: 10px 5px 5px var(--tanColor);
+}
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -161,4 +157,3 @@ footer a:hover {
     margin-right: 0.5rem;
   }
 }
-/* Responsive styles end */
