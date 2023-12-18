@@ -50,7 +50,7 @@ p, li {
 /* Jumbotron styling */
 .jumbotron {
   position: relative;
-  background-image: url(https://images.pexels.com/photos/3591570/pexels-photo-3591570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(./Images/3.png);
   background-position: center;
   background-size: cover; 
   padding: 100px 0;
@@ -134,6 +134,15 @@ padding-right: 100px;
 
 /* Footer styling */
 
+.footer-container{
+background-image: url(./Images/3.png);
+background-size: cover; 
+color: var(--bs-white);
+}
+
+.nav-item {
+justify-content:center;
+}
 
 /* Hover & Transition */
 nav .navbar-nav a:hover,

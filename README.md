@@ -6,7 +6,7 @@ Portfolio page using Bootstrap
 
 ## Portfolio Image
 
-![](Assets/portfolioscreenshot.png)
+![](Assets/.......)
 
 
 ## How I approached this Project
@@ -14,32 +14,19 @@ As a designer, I wanted to incorporate my existing design skills with my newfoun
 
 
 ## References / Resources
+Refer to 
+* (https://getbootstrap.com/)
+* (https://www.w3schools.com) 
 
-
-### Grid Area
-Refer to [W3Schools The grid-row Property]
-* (https://www.w3schools.com/css/css_grid_item.asp) 
-* (https://www.w3schools.com/cssref/css3_pr_filter.php) 
-
-### Hover & Transition
-Refer to  [developer.mozilla]
-* (https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
-* (https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/brightness)
-* (https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
-* (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale)
 
 ### Image Source
 Refer to
 * (https://www.pexels.com/)
-* (https://unsplash.com/)
 
-### General
-* (https://www.w3schools.com/cssref/css3_pr_overflow-x.php) 
-* ( https://www.fluid-type-scale.com/) 
 
 
 ## Deployed Project Link 
-You can view my Portfolio website via this link - (https://hwilson-hub.github.io/Portfolio-C-2/         )
+You can view my Portfolio website via this link - (....)
 
 
 ## License
@@ -53,7 +40,6 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to conditions.
 
-View full License: (https://github.com/hwilson-hub/Challenge1-Horiseon/blob/main/LICENSE)
 
 ©2023. Haydawn Wilson. All Rights Reserved.
 
