@@ -6,7 +6,7 @@ Portfolio page using Bootstrap
 
 ## Portfolio Image
 
-![](Assets/.......)
+![](Assets/.....)
 
 
 ## How I approached this Project
