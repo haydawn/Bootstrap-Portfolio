@@ -13,7 +13,6 @@
 
 <body>
 
-  <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary customNav" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Bootstrap Portfolio</a>
@@ -39,6 +38,7 @@
     </div>
   </nav>
   <!-- End navigation bar -->
+  
 
   <!-- Jumbotron (Hero Section) -->
   <section class="jumbotron">
@@ -49,7 +49,7 @@
           <img class="media" src="./Assets/Images/re-edit-lowres-16.JPG" alt="Portfolio Photo">
         </div>
         <!-- Column for Text -->
-        <div class="col-md-6">
+        <div class="col-md-6 my-name">
           <h1 class="display-4">Haydawn Wilson</h1>
           <p class="lead">Brand Strategist & Web Developer</p>
         </div>
@@ -210,19 +210,18 @@
 
   <!-- Footer Section -->
   <footer class="footer-container py-3">
-    <div>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+    <div class="footer-nav ml-auto">
+        <li class="footer-item">
+          <a class="footer-link footer-text"  href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Work</a>
+        <li class="footer-item">
+          <a class="footer-link footer-text" href="#work">Work</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
+        <li class="footer-item">
+          <a class="footer-link footer-text" href="#skills">Skills</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about-contact">About/Contact</a>
+        <li class="footer-item">
+          <a class="footer-link footer-text" href="#about-contact">About/Contact</a>
         </li>
       </ul>
     </div>
@@ -231,6 +230,7 @@
       <p>&copy; 2023 Haydawn Wilson. All rights reserved.</p>
     </div>
   </footer>
+ <!-- End Footer Section -->
 
   <!-- Popper.js, Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
