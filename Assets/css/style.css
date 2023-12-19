@@ -49,7 +49,6 @@ p, li {
 
 /* Jumbotron styling */
 .jumbotron {
-  position: relative;
   background-image: url(../Images/3.png);
   background-position: center;
   background-size: cover; 
@@ -73,6 +72,7 @@ p, li {
   height: 300px;
   border-radius: 3px;
 }
+
 
 /* Work Section styling */
 #work {
@@ -160,8 +160,13 @@ color: var(--bs-white);
 
 .btn:hover,
 .btn-primary:hover {
-  box-shadow: 10px 5px 5px var(--bs-gray-500) 
+  box-shadow: 10px 5px 5px var(--bs-gray-600); 
+  background-color: var(--tanColor)!important;
 }
+
+.nav-link:hover {
+  color: var(--tanColor);}
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
